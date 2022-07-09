@@ -1,0 +1,2 @@
+Mapel | Waktu | Gedung | Ruang | Dosen
+PBO | 2 | GKB_3 | Lab_AB | Ria
