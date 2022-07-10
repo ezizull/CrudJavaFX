@@ -4,58 +4,57 @@
 */
 
 /*borderpane*/
-.root{
-    -fx-background-color: #fd5e53
+.root {
+    -fx-background-color: #272343;
 }
 
-.lpan{
+.lpan {
     -fx-background-color: #e3f6f5;
 }
 
-.rpan{
+.rpan {
     -fx-background-color: #ffffff;
     /*-fx-background-color: #fd5e53;*/
 }
 
 
-.clpan{
+.clpan {
     /*-fx-background-color: #fd5e53;*/
     -fx-background-color: #e3f6f5;
 }
 
-.blpan{
+.blpan {
     -fx-background-image: url("../image/logo.png");
     -fx-background-repeat: no-repeat;
-    -fx-background-size: 150px;
-    -fx-max-widht: 800px;
-    -fx-min-widht: 400px;
+
+    -fx-background-size: 30%;
     -fx-background-position: center center;
     -fx-background-color: #272343;
 }
 
 
 /*content*/
-.tabel .label{
+.tabel .label {
     -fx-font-family: "Consolas";
     -fx-text-fill: #1B5B5B;
     -fx-font-size: 12px;
 }
 
-.list{
+.list {
     -fx-font-family: "Didact Gothic";
     -fx-text-fill: #1B5B5B;
     -fx-font-size: 13px;
     -fx-font-weight: 700;
 }
 
-.judl{
+.judl {
     -fx-font-family: "Brisa Sans";
     -fx-text-fill: #1B5B5B;
     -fx-font-size: 16px;
     -fx-font-weight: 700;
 }
 
-.lebel{
+.lebel {
     -fx-font-family: "Didact Gothic";
     -fx-text-fill: #1B5B5B;
     -fx-font-size: 13px;
@@ -67,83 +66,82 @@
 }
 
 /*box & icon*/
-.lbox{
+.lbox {
     -fx-background-color: #ffffff
 }
 
-.rbox{
+.rbox {
     -fx-background-color: #ffffff;
 }
 
 
 /*button*/
-.menu{
+.menu {
     /*-fx-border-color: transparent;*/
     /*-fx-background-color: #e3f6f5;*/
     -fx-background-radius: 15;
 }
 
-.submit{
+.submit {
     -fx-font-family: "Brisa Sans";
     -fx-text-fill: #f9fcfb;
-    -fx-background-color:#fd5e53;
+    -fx-background-color: #fd5e53;
     -fx-font-size: 14px;
 }
 
-.submit:hover{
+.submit:hover {
     -fx-font-family: "Brisa Sans";
     -fx-text-fill: #272343;
-    -fx-background-color:#b0eacd;
+    -fx-background-color: #b0eacd;
     -fx-font-size: 14px;
     -fx-scale-x: 1.02;
     -fx-scale-y: 1.02;
     -fx-scale-z: 1.02;
 }
 
-.submit:focused{
+.submit:focused {
     -fx-font-family: "Brisa Sans";
     -fx-text-fill: #f9fcfb;
-    -fx-background-color:#21bf73;
+    -fx-background-color: #21bf73;
     -fx-font-size: 14px;
 }
 
-.remove{
+.remove {
     -fx-font-family: "Brisa Sans";
     -fx-text-fill: #fbf9fa;
-    -fx-background-color:#2b2024;
+    -fx-background-color: #2b2024;
 
     -fx-font-size: 14px;
 }
 
-.remove:hover{
+.remove:hover {
     -fx-font-family: "Brisa Sans";
     -fx-text-fill: #2b2024;
-    -fx-background-color:#fbf9fa;
+    -fx-background-color: #fbf9fa;
     -fx-font-size: 14px;
     -fx-scale-x: 1.02;
     -fx-scale-y: 1.02;
     -fx-scale-z: 1.02;
 }
 
-.remove:focused{
+.remove:focused {
     -fx-font-family: "Brisa Sans";
     -fx-text-fill: #fbf9fa;
-    -fx-background-color:#fd5e53;
+    -fx-background-color: #fd5e53;
     -fx-font-size: 14px;
 }
 
-.menu:default{
-    -fx-background-color:#ff9234;
+.menu:default {
+    -fx-background-color: #ff9234;
 }
 
-.menu:focused{
-    -fx-background-color:#ff9234;
+.menu:focused {
+    -fx-background-color: #ff9234;
 }
 
-.menu:hover{
-    -fx-background-color:#ffcd3c;
+.menu:hover {
+    -fx-background-color: #ffcd3c;
     -fx-scale-x: 1.02;
     -fx-scale-y: 1.02;
     -fx-scale-z: 1.02;
 }
-
